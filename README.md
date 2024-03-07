@@ -16,8 +16,23 @@
 
 **To make the microservice, you will need:**
    - Install Node.js.
-   - Open the terminal to navigate to the directory that contains `testingLink.js` and `isbnPipeLine.txt`.
+   - Create a directory
+     ```
+     mkdir isbnTestLink
+     ```
+   - Open the terminal to navigate to the directory you just created that contains `testingLink.js` and `isbnPipeLine.txt`.
    - Run the following commands in the terminal:
+   - To create the node app run this
+     ```
+     npm init
+     ```
+     Click yes in all of the options. Then your folder should contain package-lock.json and package.json
+     I use express package so the next command should be
+     ```
+     npm i express
+     ```
+     You can add more packages if you would like to.
+     This should get you started with the app so now you can install the app, install axios and debug your code with this other commands:
      ```
      npm install
      ```
